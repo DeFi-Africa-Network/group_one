@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.21+commit.d9974bed"
+		"version": "0.7.0+commit.9e61f92b"
 	},
 	"language": "Solidity",
 	"output": {
@@ -107,7 +107,7 @@
 				"outputs": [
 					{
 						"internalType": "bool",
-						"name": "",
+						"name": "success",
 						"type": "bool"
 					}
 				],
@@ -202,7 +202,7 @@
 				"outputs": [
 					{
 						"internalType": "bool",
-						"name": "",
+						"name": "success",
 						"type": "bool"
 					}
 				],
@@ -231,7 +231,7 @@
 				"outputs": [
 					{
 						"internalType": "bool",
-						"name": "",
+						"name": "success",
 						"type": "bool"
 					}
 				],
@@ -252,9 +252,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/cryptoeye.sol": "MyToken"
+			"contracts/chatme.sol": "Token"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "istanbul",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -266,12 +266,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/cryptoeye.sol": {
-			"keccak256": "0x13d999c249110584ee81bf3e4347e3832093251e42e5035b120ead3aced97d27",
-			"license": "MIT",
+		"contracts/chatme.sol": {
+			"keccak256": "0xffff3638113fad35e196c3878eee178f1d77b67bfbfc8c1f6bf14ccfa50b6524",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://6ba95da88f203c619815504dd5b2925318d4e09ef8ae05725a6eb9588b539ee2",
-				"dweb:/ipfs/QmNxJcSiUvf3MTnaLWs2W6Yc6rTR6yJp2sgkc8atzMWkQf"
+				"bzz-raw://c0455334abc5ef815d30bc0ac0cf0407c3bc86aace2498a2925e87c3e33ce52d",
+				"dweb:/ipfs/QmXdVGEBFAHouY7SAhqNpNeJWDF7TroyewyXhD2a86BGC6"
 			]
 		}
 	},
