@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "isMember",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/fresh.sol": "C1"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/fresh.sol": {
+			"keccak256": "0xc8a845103d2ab092e2d0e8f6d017a9726e20ce65a23a1952e4fb0d97def0f6fc",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://553691b7a89c18967d678dafd172b3ac5524ec8b6bd51047e5bb6f927f7100cc",
+				"dweb:/ipfs/QmNgoJ32rASctfZtwnbYhDpERs8EwjhtFS4TgTwrMAUCqj"
+			]
+		}
+	},
+	"version": 1
+}
