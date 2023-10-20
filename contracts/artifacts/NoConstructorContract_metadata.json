@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "message",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_newMessage",
+						"type": "string"
+					}
+				],
+				"name": "setMessage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/cryptoeye.sol": "NoConstructorContract"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/cryptoeye.sol": {
+			"keccak256": "0x72af7f3c8cc96fe88c5f21d4a78ca02f684d9a1aa35fcbb608acb3413de5b500",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6401f3bc010b270d997b5aa64272b2a7fac2dd96478728d9727f9005b44b9fb9",
+				"dweb:/ipfs/QmfF7fiKKKUiUnLtu5tVpkPe6HVVta7gsMFnpiX5DrDvQp"
+			]
+		}
+	},
+	"version": 1
+}
