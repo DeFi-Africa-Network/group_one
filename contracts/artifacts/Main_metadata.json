@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "printMessage",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "userName",
+						"type": "string"
+					}
+				],
+				"name": "setUserName",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/hello.sol": "Main"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/hello.sol": {
+			"keccak256": "0xf64d7114dd597be0487e02434e7bfea970a7f9f7c7ae9ae945f4d029a50be9a6",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://e628bc398d7684d142b705acfc5b80037e87f34a8fccedc3c7db60980ad906e5",
+				"dweb:/ipfs/QmTdeEeqZ4mPGPKvfznbZK6MykQ4pWb7uveZtsNfuk1ezv"
+			]
+		}
+	},
+	"version": 1
+}
