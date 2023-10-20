@@ -9,7 +9,7 @@ contract Main {
         name = userName;
     }
 
-    function printMessage() public returns(string memory) {
+    function printMessage() public  view returns(string memory) {
         bytes memory concat_strings;
         concat_strings = abi.encodePacked("Hello ");
         concat_strings = abi.encodePacked(concat_strings, name);
